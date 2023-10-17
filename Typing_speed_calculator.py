@@ -31,5 +31,6 @@ print()
 time_1 = time()
 testinput = input("Enter Your Response : ")
 time_2 = time()
-
+print()
+print("***** Results *****")
 print("Speed : ",speed_time(time_1,time_2,testinput),"words/sec, Error/s : ",mistake(test1,testinput))
